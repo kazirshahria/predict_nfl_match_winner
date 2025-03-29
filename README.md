@@ -12,7 +12,7 @@ A team winning or losing can help sport enthusiasts and companies to:
 
 ## Key Findings
 
-- A team being home or away is not important deciding who wins or lose
+- A team being home or away is not important deciding who wins or loses
 - The model performs well predicting home winners
 - The XGB model generalizes winning teams better than logistic regression
 
