@@ -1,21 +1,22 @@
-# 🏈 Predict NFL Matchup Winner 🏈
+# 🏈 Predict The NFL Matchup Winner 🏈
 
-**Objective**: Create a model that is able to predict the winner of matchups in the NFL using historical data and team information
+**Objective**: Develop a model that can classify the winner of NFL matchups
 
 ## What Problems Does It Solve?
 
-A team winning or losing can help sport enthusiasts and companies to:
+A team winning or losing helps fans and stakeholders to:
 
 - Make better decisions
 - Gain a competitive advantage
-- Estimate the probability of winning
+- Potentially profit
 
 ## Key Findings
 
-- A team being home or away is not important deciding who wins or loses
-- The model performs well predicting home winners
-- The XGB model generalizes winning teams better than logistic regression
+- Model is more accurate at predicting home wins
+- Team wins from last season increases model's accuracy
 
 ## Next Steps
 
-This model is **ONLY** looking at matchup, game information, and win percentage from last season. To better predict the winning team, other factors such as lineups, recent performance, and team ranking, may improve predictive capabilities.
+This model only looks at matchup, game information, and win records. 
+
+To better predict the winning team, other factors such as lineups, injury reports, recent performance, and team ranking, may improve predictive capabilities.
