@@ -2,11 +2,11 @@
 
 The purpose of this project is to build a machine learning model that can predict the team that is more likely to win. 
 
-Historical matchup data was imported and used from [**`nfl_data_py`**](https://pypi.org/project/nfl-data-py) to train, test, and validate results. The [**XGB**](https://xgboost.readthedocs.io/en/stable/index.html) classifier model yielded results close to about **60% accuracy** in predicting the correct  team.
+Historical matchup data was imported and used from [**`nfl_data_py`**](https://pypi.org/project/nfl-data-py) to train, test, and validate results. The [**XGBoost**](https://xgboost.readthedocs.io/en/stable/index.html) classifier model yielded results close to **60% accuracy** in predicting the correct  team.
 
 ## Sports Data and Challenges
 
-**`nfl_data_py`** contains information on teams, players, game results/schedules, and more. However, modeling sports data can be tricky and overcomplicated. There's too many variables to select from with limited information for predictive usage.  
+The NFL api contains information on teams, players, game results/schedules, and more. However, modeling sports data can be tricky and overcomplicated. There's too many variables to select from with limited information for predictive usage.  
 
 For example, earlier in this project, I built a model taking the moving average of both teams quarterback statistics and determining the "better" quarterback to predict the winning team. That model faced issues and was not ideal for the main objective I was looking to achieve.
 
